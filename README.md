@@ -41,7 +41,8 @@ The Auto Trading project is designed to make predictions on stock prices using t
 2. To train the model on your dataset
 3. Visual predict result in the result.png
 4. Prediction of future price in the terminal
-5. ![Result_Example](imag/result.png)
+5. Result Example:
+ ![Result_Example](imag/result.png)
 
 
 ## Data Format
