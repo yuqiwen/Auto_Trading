@@ -12,7 +12,9 @@ from math import sqrt
 import yfinance as yf
 import pandas as pd
 from keras.models import load_model
-# 绘图展示结果
+
+
+# show plot result
 def plot_results(predicted_data, true_data,company,dates):
     def dollar_formatter(x, pos):
         return f"${x:,.0f}"
@@ -27,10 +29,10 @@ def plot_results(predicted_data, true_data,company,dates):
     #plt.show()
     plt.savefig('results.png')
 
-#RNN时间序列
+#RNN time series
 def main():
     # Set the working directory
-    os.chdir("D:/温宇琦/CS project/AutoTrading/")
+    #os.chdir("your/directory/to/ensure/file/read")
     #Read input
     # company="GOOG"
     id=input("Please enter company: ")
